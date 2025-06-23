@@ -1,0 +1,77 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .footer-left span {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  .made-in {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .figma-icon {
+    color: #a259ff;
+  }
+  
+  .footer-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer-right .logo {
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: #fff;
+    color: #000;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-right span:last-child {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+    }
+    
+    .footer-left {
+      align-items: center;
+    }
+    
+    .footer-right {
+      flex-direction: column;
+      gap: 5px;
+    }
+  }

@@ -1,0 +1,150 @@
+.experience-section {
+    padding: 80px 10%;
+    background: #fff;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f3f3;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #fff;
+  }
+  
+  .experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+  }
+  
+  .experience-item {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .experience-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .company-icon {
+    font-size: 2rem;
+    color: #646cff;
+    background: #e0e0ff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .position {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .period {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .modal-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .modal-icon {
+    font-size: 2.5rem;
+    color: #646cff;
+    background: #e0e0ff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-body p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .experience-section {
+      padding: 60px 5%;
+    }
+    
+    .position {
+      font-size: 1.1rem;
+    }
+    
+    .modal-content {
+      padding: 20px;
+    }
+    
+    .modal-header {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }
+  }
